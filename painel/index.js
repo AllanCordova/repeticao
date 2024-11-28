@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var contador_1 = require("./contador");
+var contar = new contador_1.default(1, 12);
+contar.contagem();
+console.log();
+contar.contagemDecrescente();
+console.log();
+contar.pares();
+console.log();
+contar.contagemImpares();
+console.log();
+contar.contagemPasso(3);
+console.log();
+contar.contagemOmitindo(4);
+console.log();
